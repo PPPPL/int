@@ -1,1 +1,225 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TASK_2</title>
+<style type="text/css">  
+body{   
+    margin: 0 auto;
+}  
+#header{
+    width: 1349px;
+    height:60px;
+    background-color: black;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#box1{
+    width: 1249px;
+    height: 1100px;
+    border: 20px solid gray;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+#box2{
+    width: 1249px;
+    height: 1200px;
+    border-top: 20px solid gray;
+    border-left:20px solid gray;
+    border-right:20px solid gray;
+    position: absolute;
+    top:1160px;
+    left:30px;
+}
+#box3{
+    width: 1249px;
+    height: 5700px;
+    border-top: 20px solid gray;
+    border-left:20px solid gray;
+    border-right:20px solid gray;
+    position: absolute;
+    top:2360px;
+    left:30px;
+}
+#box4{
+    width: 1249px;
+    height: 500px;
+    border-top: 20px solid gray;
+    border-left:20px solid gray;
+    border-right:20px solid gray;
+    position: absolute;
+    top:8000px;
+    left:30px;
+}
+#box5{
+    width: 1249px;
+    height: 380px;
+    border-top: 20px solid gray;
+    border-left:20px solid gray;
+    border-right:20px solid gray;
+    position: absolute;
+    top:8500px;
+    left:30px;
+}
+#footer{
+    width:1349px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top:8900px;
+    left:0px;
+}
+#lefter{
+    width: 30px;
+    height: 8900px;
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#righter{
+    width: 30px;
+    height: 8900px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+</style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="box1">
+        <h2>文章一级标题</h2>
+    <h3>文章二级标题</h3>
+    <p>文章作者 文章发表时间</p>
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong >这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+    <img src="https://b-ssl.duitang.com/uploads/item/201112/19/20111219135803_cLfUM.jpg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+    </div>
+    <div id="box2">
+        <h2>另一篇文章一级标题</h2>
+    <h3>另一篇文章二级标题</h3>
+    <p>文章作者 文章发表时间</p>
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+    <img src="https://b-ssl.duitang.com/uploads/item/201208/18/20120818130614_y3Zij.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网">
+    <ul>
+        <li>项目列表一</li>
+        <li>项目列表二</li>
+        <li>项目列表三</li>
+</ul>
+    </div>
+    <div id="box3">
+        <h2>图片</h2>
+    <ul style="list-style-type:none;">
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <li>好看的图片</li>
+        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+</ul>
+    </div>
+    <div id="box4">
+        <h2>最后一篇文章一级标题</h2>
+    <h3>文章二级标题</h3>
+    <p>文章作者 文章发表时间</p>
+    <ol>
+        <li>排名一</li>
+        <li>排名二</li>
+        <li>排名三</li>  
+    </ol>
+    <caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</caption>
+    <table border="1">
+        <tr>
+            <th>表头</th>
+            <th>表头</th>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="" title="操作">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="" title="操作">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="" title="操作">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="" title="操作">操作</a></td>
+        </tr>
+        <tr>
+            <td>总计</td>
+            <td>1000</td>
+        </tr>
+</table>
+    </div>
+    <div id="box5">
+        <h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+    <h3>侧栏注册窗口标题</h3>
+    <form method="post" action="save.php">
+        <label>请输入邮箱地址：</label>
+        <input type="text" name="username" />
+        <p>邮箱地址请按格式输入</p>
+        <label>请输入密码：</label>
+        <input type="password" name="pass" />
+        <label>请重复输入密码：</label>
+        <input type="password" name="pass" />
+        <p>密码请为6-16位英文数字</p>
+    </form>
+    <form method="post" action="save.php">
+        <label>性别：</label>
+        <label for="male">男</label>
+        <input type="radio" value="1" name="gender" id="male" checked="checked" />
+        <label for="female">女</label>
+        <input type="radio" value="2" name="gender" id="female" />
 
+    <label>城市：</label>
+        <select>
+            <option value="Beijing" selected="selected">北京</option>
+            <option value="Shanghai">上海</option>
+            <option value="Guangzhou">广州</option>
+        </select>
+    </label>
+
+        <label>爱好：</label>
+        <label for="sport">运动</label>
+        <input type="checkbox" value="1" name="favor" id="sport">
+        <label for="art">艺术</label>
+        <input type="checkbox" value="2" name="favor" id="art">
+        <label for="science">科学</label>
+        <input type="checkbox" value="3" name="favor" id="science">
+
+        <label>个人描述：</label>    
+        <textarea cols="20" rows="2">这是一个多行输入框，输入您的个人描述</textarea>
+        <input type="submit" value="确认提交" name="submit" />
+    </form>
+    </div>
+    <div id="footer"></div>
+    <div id="lefter"></div>
+    <div id="righter"></div>
+</body>
+</html>
