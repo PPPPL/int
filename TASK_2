@@ -5,6 +5,7 @@
 <style type="text/css">  
 body{   
     margin: 0 auto;
+    font: 15px/2.0 "Microsoft YaHei",SimSun,sans-serif; 
 }  
 #header{
     width: 1349px;
@@ -16,48 +17,50 @@ body{
 }
 #box1{
     width: 1249px;
-    height: 1100px;
-    border: 20px solid gray;
+    height: 1200px;
+    border-top: 20px solid gray;
+    border-left:20px solid gray;
+    border-right:20px solid gray;
     position: absolute;
     top: 60px;
     left: 30px;
 }
 #box2{
     width: 1249px;
-    height: 1200px;
+    height: 1400px;
     border-top: 20px solid gray;
     border-left:20px solid gray;
     border-right:20px solid gray;
     position: absolute;
-    top:1160px;
+    top:1260px;
     left:30px;
 }
 #box3{
     width: 1249px;
-    height: 5700px;
+    height: 5900px;
     border-top: 20px solid gray;
     border-left:20px solid gray;
     border-right:20px solid gray;
     position: absolute;
-    top:2360px;
+    top:2560px;
     left:30px;
 }
 #box4{
     width: 1249px;
-    height: 500px;
+    height: 700px;
     border-top: 20px solid gray;
     border-left:20px solid gray;
     border-right:20px solid gray;
     position: absolute;
-    top:8000px;
+    top:8300px;
     left:30px;
 }
 #box5{
     width: 1249px;
-    height: 360px;
+    height: 460px;
     border: 20px solid gray;
     position: absolute;
-    top:8500px;
+    top:8900px;
     left:30px;
 }
 #footer{
@@ -65,12 +68,12 @@ body{
     height: 60px;
     background-color: black;
     position: absolute;
-    top:8900px;
+    top:9400px;
     left:0px;
 }
 #lefter{
     width: 30px;
-    height: 8900px;
+    height: 9400px;
     background-color: black;
     position: absolute;
     top:0px;
@@ -78,7 +81,7 @@ body{
 }
 #righter{
     width: 30px;
-    height: 8900px;
+    height: 9400px;
     background-color: black;
     position: absolute;
     top: 0px;
