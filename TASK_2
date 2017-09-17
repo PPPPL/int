@@ -54,10 +54,8 @@ body{
 }
 #box5{
     width: 1249px;
-    height: 380px;
-    border-top: 20px solid gray;
-    border-left:20px solid gray;
-    border-right:20px solid gray;
+    height: 360px;
+    border: 20px solid gray;
     position: absolute;
     top:8500px;
     left:30px;
