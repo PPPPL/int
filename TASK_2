@@ -3,7 +3,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>TASK_2</title>
 <style type="text/css">  
-/*各种灰色还没有查询 最后排版*/
 body{   
     margin: 0 auto;
     font: 15px/1.7 "Microsoft YaHei",sans-serif;    
@@ -19,9 +18,9 @@ body{
 #box1{
     width: 1209px;
     height: 900px;
-    border-top: 20px solid gray;
-    border-left:20px solid gray;
-    border-right:20px solid gray;
+    border-top: 20px solid rgb(217,217,217);
+    border-left:20px solid rgb(217,217,217);
+    border-right:20px solid rgb(217,217,217);
     position: absolute;
     top: 60px;
     left: 30px;
@@ -30,9 +29,9 @@ body{
 #box2{
     width: 1209px;
     height: 1200px;
-    border-top: 20px solid gray;
-    border-left:20px solid gray;
-    border-right:20px solid gray;
+    border-top: 20px solid rgb(217,217,217);
+    border-left:20px solid rgb(217,217,217);
+    border-right:20px solid rgb(217,217,217);
     position: absolute;
     top:900px;
     left:30px;
@@ -41,9 +40,9 @@ body{
 #box3{
     width: 1209px;
     height: 1800px;
-    border-top: 20px solid gray;
-    border-left:20px solid gray;
-    border-right:20px solid gray;
+    border-top: 20px solid rgb(217,217,217);
+    border-left:20px solid rgb(217,217,217);
+    border-right:20px solid rgb(217,217,217);
     position: absolute;
     top:1700px;
     left:30px;
@@ -52,9 +51,9 @@ body{
 #box4{
     width: 1209px;
     height: 700px;
-    border-top: 20px solid gray;
-    border-left:20px solid gray;
-    border-right:20px solid gray;
+    border-top: 20px solid rgb(217,217,217);
+    border-left:20px solid rgb(217,217,217);
+    border-right:20px solid rgb(217,217,217);
     position: absolute;
     top:3500px;
     left:30px;
@@ -63,7 +62,7 @@ body{
 #box5{
     width: 1209px;
     height: 500px;
-    border: 20px solid gray;
+    border: 20px solid rgb(217,217,217);
     position: absolute;
     top:4000px;
     left:30px;
@@ -246,13 +245,14 @@ form{
             <td><a href="" title="操作">操作</a></td>
         </tr>
         <tr>
-            <td style="background-color: gray">总计</td>
-            <td style="background-color: gray">1000</td>
-            <td style="background-color: gray"></td>
+            <td style="background-color: rgb(193,193,193);">总计</td>
+            <td style="background-color: rgb(193,193,193);">1000</td>
+            <td style="background-color: rgb(193,193,193);"></td>
         </tr>
 </table>
     </div>
     <div id="box5">
+        <!--居中问题没有解决-->
         <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
         <form method="post" action="save.php">
             <label>请输入邮箱地址&nbsp;</label>
