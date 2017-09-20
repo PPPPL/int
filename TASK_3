@@ -1,1 +1,27 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TASK_3</title>
+<style type="text/css">
+	#left,#right,#middle{
+		padding: 20px;
+	}
+</style>
+</head>
+<body>
+	<div id="left">
+		<img class="team_logo" src="http://img.hb.aicdn.com/c8c4969e387da082e40fe977d90ec26c9d784b745e85b-U4srP2_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+		<p>We bare bears</p>
+	</div>
+	<div id="right">
+		<img class="Icebear" src="http://img.hb.aicdn.com/e62e8cbaff42f08a61bd58f995f1375b9e36bfabf04a-jVrQME_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+		<img class="Panda" src="http://img.hb.aicdn.com/4519c478ce574462c7eafa5d398b19b270901fc8167c6-bOu49r_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+		<img class="Grizz" src="http://img.hb.aicdn.com/e0b6a089f12847221873bf69e90caba8ccd54a4923175-v0sHSS_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+		<img class="Chloe" src="http://img.hb.aicdn.com/e0777c861acbe2687b958b41832f6ad78a70a9b311160-QW7xGy_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+	</div>
+	<div id="middle">
+		<p></p>
+		<p></p>
+	</div>
+</body>
 
