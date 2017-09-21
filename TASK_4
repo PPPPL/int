@@ -8,10 +8,12 @@
 }
 .rectangle{
 	position: absolute;
-	top:25%;
-	left:25%;
-	bottom: 25%;
-	right: 25%;
+	width: 400px;
+	height: 200px;
+	top:50%;
+	margin-top: -100px; 
+	left: 50%;
+	margin-left: -200px;
 	background:#ccc; 
 }
 .circle1{
