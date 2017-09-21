@@ -3,47 +3,63 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>TASK_3</title>
 <style type="text/css">
-body,tbody,#left,#right,#middle{
-		padding: 20px;
-	}
-tbody{
+body,#tbody,#left,#right{
+	padding: 20px;
+	margin: 0 auto;
+}
+body,#left,#right,#middle{
+	background: #fff;
+	border: 1px solid #999;
+}
+body{
+	font-family: "Microsoft Yahei";
+	font-size: 15px;	
+}
+#tbody{
 	background: #eee;
 	border: 1px solid #999;
+	overflow: auto;
 }
 #left{
 	float: left;
 	width: 160px;
-	background: #fff;
-	border: 1px solid #999;
 }
 #right{
 	float: right;	
-	width: 120px;
-	background: #fff;
-	border: 1px solid #999;
+	width: 80px;
 }
 #middle{
+	padding: 20px;
+	margin-left:220px;
+	margin-right: 140px;
+}
+.member{
+	display: block;
+	margin: 20px 0px;
 	background: #fff;
 	border: 1px solid #999;
 }
 </style>
 </head>
 <body>
-	<tbpdy>
-	<div id="left">
-		<img class="team_logo" src="http://img.hb.aicdn.com/c8c4969e387da082e40fe977d90ec26c9d784b745e85b-U4srP2_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
-		<p>We bare bears</p>
+	<div id="tbody">
+		<div id="left">
+			<img class="team_logo" src="http://img.hb.aicdn.com/c8c4969e387da082e40fe977d90ec26c9d784b745e85b-U4srP2_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+			<p style="float: right;margin:0 auto;">咱们裸熊</p>
+		</div>
+		<div id="right">
+			<img class="member" src="http://img.hb.aicdn.com/e62e8cbaff42f08a61bd58f995f1375b9e36bfabf04a-jVrQME_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" style="margin: 0 auto;" />
+			<img class="member" src="http://img.hb.aicdn.com/4519c478ce574462c7eafa5d398b19b270901fc8167c6-bOu49r_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+			<img class="member" src="http://img.hb.aicdn.com/e0b6a089f12847221873bf69e90caba8ccd54a4923175-v0sHSS_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
+			<img class="member" src="http://img.hb.aicdn.com/e0777c861acbe2687b958b41832f6ad78a70a9b311160-QW7xGy_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" style="margin: 0 auto;" />
+		</div>
+		<div id="middle">
+			<p style="margin: 0 auto;">&nbsp;&nbsp;&nbsp;&nbsp;《We Bare Bears》（咱们裸熊）是Cartoon Network于2015年7月推出的电视卡通，改编自Daniel Chong创作的网络漫画《The Three Bare Bears》。卡通讲述一只叫Grizzly的热血棕熊、一只叫Panda的死宅熊猫、一只叫Ice Bear的高冷北极熊，这三只熊的日常生活故事。</p>
+			<p>Ice Bear：拟人化的北极熊，三只熊中最小的。高冷，技术宅，能力强，具有人妻属性。是优秀的厨师，武术家，了解多种语言，喜欢干净。随身携带一把红色斧子。</p>
+			<p>Panda：拟人化的熊猫，三只熊间年龄中间的那只。高度近视，带着隐形眼镜。温和，有点害羞，缺乏安全感，对花生过敏。爱好社交网络、拍摄、电视、游戏和艺术，随身携带手机。素食主义者，害怕老鼠。</p>
+			<p>Grizzly：拟人化的棕熊，三只熊中间的老大。乐观、多愁善感、容易冲动。会吹口琴，能驾驶车辆。虽然平时做事不考虑后果导致悲剧发生，但在关键时刻是三只熊中最有行动力的。</p>
+			<p style="margin: 0 auto;">Chloe Park：韩国神童，十二岁，加利福尼亚大学学生。为了研究熊而闯入了熊熊们的生活。于第四集登场。性格腼腆，智力超群。</p>
+		</div>
 	</div>
-	<div id="right">
-		<img class="Icebear" src="http://img.hb.aicdn.com/e62e8cbaff42f08a61bd58f995f1375b9e36bfabf04a-jVrQME_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
-		<img class="Panda" src="http://img.hb.aicdn.com/4519c478ce574462c7eafa5d398b19b270901fc8167c6-bOu49r_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
-		<img class="Grizz" src="http://img.hb.aicdn.com/e0b6a089f12847221873bf69e90caba8ccd54a4923175-v0sHSS_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
-		<img class="Chloe" src="http://img.hb.aicdn.com/e0777c861acbe2687b958b41832f6ad78a70a9b311160-QW7xGy_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
-	</div>
-	<div id="middle">
-		<p></p>
-		<p></p>
-	</div>
-</tbpdy>
 </body>
-
+</html>
