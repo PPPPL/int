@@ -3,12 +3,33 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>TASK_3</title>
 <style type="text/css">
-#left,#right,#middle{
+body,tbody,#left,#right,#middle{
 		padding: 20px;
 	}
+tbody{
+	background: #eee;
+	border: 1px solid #999;
+}
+#left{
+	float: left;
+	width: 160px;
+	background: #fff;
+	border: 1px solid #999;
+}
+#right{
+	float: right;	
+	width: 120px;
+	background: #fff;
+	border: 1px solid #999;
+}
+#middle{
+	background: #fff;
+	border: 1px solid #999;
+}
 </style>
 </head>
 <body>
+	<tbpdy>
 	<div id="left">
 		<img class="team_logo" src="http://img.hb.aicdn.com/c8c4969e387da082e40fe977d90ec26c9d784b745e85b-U4srP2_fw658" alt="哎呀好像加载失败了呢" title="来自花瓣网" width="80px" height="80px" />
 		<p>We bare bears</p>
@@ -23,5 +44,6 @@
 		<p></p>
 		<p></p>
 	</div>
+</tbpdy>
 </body>
 
