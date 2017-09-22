@@ -6,67 +6,22 @@
 body{   
     margin: 0 auto;
     font: 15px/1.7 "Microsoft YaHei",sans-serif;    
+    background:rgb(220,220,220);
 }  
 #header{
     width: 1349px;
     height:60px;
-    background-color:black;
+    background:black;
     position:absolute;
     top:0px;
     left:0px;
+
 }
-#box1{
-    width: 1209px;
-    height: 900px;
-    border-top: 20px solid rgb(217,217,217);
-    border-left:20px solid rgb(217,217,217);
-    border-right:20px solid rgb(217,217,217);
-    position: absolute;
-    top: 60px;
-    left: 30px;
-    padding: 15px 20px;
-}
-#box2{
-    width: 1209px;
-    height: 1200px;
-    border-top: 20px solid rgb(217,217,217);
-    border-left:20px solid rgb(217,217,217);
-    border-right:20px solid rgb(217,217,217);
-    position: absolute;
-    top:900px;
-    left:30px;
-    padding: 15px 20px;
-}
-#box3{
-    width: 1209px;
-    height: 1800px;
-    border-top: 20px solid rgb(217,217,217);
-    border-left:20px solid rgb(217,217,217);
-    border-right:20px solid rgb(217,217,217);
-    position: absolute;
-    top:1700px;
-    left:30px;
-    padding: 15px 20px;
-}
-#box4{
-    width: 1209px;
-    height: 700px;
-    border-top: 20px solid rgb(217,217,217);
-    border-left:20px solid rgb(217,217,217);
-    border-right:20px solid rgb(217,217,217);
-    position: absolute;
-    top:3500px;
-    left:30px;
-    padding: 15px 20px;
-}
-#box5{
-    width: 1209px;
-    height: 500px;
-    border: 20px solid rgb(217,217,217);
-    position: absolute;
-    top:4000px;
-    left:30px;
-    padding: 15px 20px;
+.box{
+    background:white;
+    margin:22px;
+    padding: 20px;
+    box-shadow: 2px 2px 0.5px 1px rgb(160,160,160);
 }
 #footer{
     width:1349px;
@@ -76,37 +31,20 @@ body{
     top:4570px;
     left:0px;
 }
-#lefter{
-    width: 30px;
-    height: 4570px;
-    background-color: black;
-    position: absolute;
-    top:0px;
-    left: 0px;
-}
-#righter{
-    width: 30px;
-    height: 4570px;
-    background-color: black;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+.headlogo{
+    margin-top:-10px;
+    height: 70px;
+    width: 150px;
+    float: left;
 }
 .link>li{
     display: inline-block; 
-    float: left;
-    position: relative;
-    left: 63%
-}
-#logo>img{
-    width: 100px;
-    height: 100px;
+    float: right;
 }
 .link a{
     color: white;
     font:12px/1.7 "Microsoft YaHei",sans-serif;
     text-decoration: none;
-
 }
 
 h2{
@@ -118,6 +56,7 @@ h4{
 h5{
     margin: 1px;
 }
+
 img{
     height:300;
     width:400;
@@ -126,14 +65,16 @@ img{
     height: 160;
     width: 200;
 }
-.link img{
-    margin-top: -25px;
-    height: 70;
-    width: 150;
-    float: left;
-    position: relative;
-    left:-550%;
+.picture>li{
+    list-style-type:none;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    width: 190;
+    height: 190;
+    text-align: center;
 }
+
 table{
     height: 20;
     width: 1209;
@@ -146,112 +87,103 @@ table tr th{
 form{
     text-align: center;
 }
-.picture>li{
-    list-style-type:none;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 20px;
-    width: 190;
-    height: 190;
-    text-align: center;
-}
-
 </style>
 </head>
-<body>     
+<body>  
     <div id="header">
+        <img class="headlogo" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png" alt="哎呀好像加载失败了呢" />
         <ul class="link">
-            <li><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png" alt="哎呀好像加载失败了呢" /></li>
             <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接一&nbsp;&nbsp;</a></li>
             <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接二&nbsp;&nbsp;</a></li>
             <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接三&nbsp;&nbsp;</a></li>
             <li><a href="https://github.com/PPPPL/int" title="LPP的Github" style="color: gray">• 导航链接四&nbsp;&nbsp;</a></li>
         </ul>
     </div>
-    <div id="box1">
+    <div id="boxes">
+    <div class="box">
         <h2>文章一级标题</h2>
-    <h4 style="color: gray">文章二级标题</h4>
-    <h5 style="color: gray">文章作者 文章发表时间</h5>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong >这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-    <img src="https://b-ssl.duitang.com/uploads/item/201112/19/20111219135803_cLfUM.jpg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+        <h4 style="color: gray">文章二级标题</h4>
+        <h5 style="color: gray">文章作者 文章发表时间</h5>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong >这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+        <img src="https://b-ssl.duitang.com/uploads/item/201112/19/20111219135803_cLfUM.jpg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
     </div>
-    <div id="box2">
+    <div class="box">
         <h2>另一篇文章一级标题</h2>
-    <h4 style="color: gray">另一篇文章二级标题</h4>
-    <h5 style="color: gray">文章作者 文章发表时间</h5>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-    <img src="https://b-ssl.duitang.com/uploads/item/201208/18/20120818130614_y3Zij.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
-    <ul style="list-style-type:none;">
-        <li>项目列表一</li>
-        <li>项目列表二</li>
-        <li>项目列表三</li>
-    </ul>
+        <h4 style="color: gray">另一篇文章二级标题</h4>
+        <h5 style="color: gray">文章作者 文章发表时间</h5>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+        <img src="https://b-ssl.duitang.com/uploads/item/201208/18/20120818130614_y3Zij.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+        <ul style="list-style-type:none;">
+            <li>项目列表一</li>
+            <li>项目列表二</li>
+            <li>项目列表三</li>
+        </ul>
     </div>
-    <div id="box3">
+    <div class="box">
         <h2>图片</h2>
-    <ul class="picture">
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        <li>好看的图片
-        <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-</ul>
+        <ul class="picture">
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            <li>好看的图片
+            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+        </ul>
     </div>
     <!--灰色线框问题没有解决-->
-    <div id="box4">
+    <div class="box">
         <h2>最后一篇文章一级标题</h2>
-    <h4 style="color: gray">文章二级标题</h4>
-    <h5 style="color: gray">文章作者 文章发表时间</h5>
-    <ol>
-        <li>排名一</li>
-        <li>排名二</li>
-        <li>排名三</li>  
-    </ol>
-    <caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格,你们写html时候不需要加</caption>
-    <table>
-        <tr style="text-align: left">
-            <th>表头</th>
-            <th>表头</th>
-            <th>表头</th>
-        </tr>
-        <tr>
-            <td>表内容单元格</td>
-            <td>表内容单元格</td>
-            <td><a href="" title="操作">操作</a></td>
-        </tr>
-        <tr>
-            <td>表内容单元格</td>
-            <td>表内容单元格</td>
-            <td><a href="" title="操作">操作</a></td>
-        </tr>
-        <tr>
-            <td>表内容单元格</td>
-            <td>表内容单元格</td>
-            <td><a href="" title="操作">操作</a></td>
-        </tr>
-        <tr>
-            <td>表内容单元格</td>
-            <td>表内容单元格</td>
-            <td><a href="" title="操作">操作</a></td>
-        </tr>
-        <tr>
-            <td style="background-color: rgb(193,193,193);">总计</td>
-            <td style="background-color: rgb(193,193,193);">1000</td>
-            <td style="background-color: rgb(193,193,193);"></td>
-        </tr>
-</table>
+        <h4 style="color: gray">文章二级标题</h4>
+        <h5 style="color: gray">文章作者 文章发表时间</h5>
+        <ol>
+            <li>排名一</li>
+            <li>排名二</li>
+            <li>排名三</li>  
+        </ol>
+        <caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格,你们写html时候不需要加</caption>
+        <table>
+            <tr style="text-align: left">
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="" title="操作">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="" title="操作">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="" title="操作">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="" title="操作">操作</a></td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(193,193,193);">总计</td>
+                <td style="background-color: rgb(193,193,193);">1000</td>
+                <td style="background-color: rgb(193,193,193);"></td>
+            </tr>
+        </table>
     </div>
-    <div id="box5">
+    <div class="box">
         <!--居中问题没有解决-->
         <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
         <form method="post" action="save.php">
@@ -292,8 +224,7 @@ form{
             <input type="submit" value="确认提交" name="submit" /></p>
         </form>
     </div>
+    </div>
     <div id="footer"></div>
-    <div id="lefter"></div>
-    <div id="righter"></div>
 </body>
 </html>
