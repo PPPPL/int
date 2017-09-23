@@ -61,8 +61,8 @@ h5{
 }
 
 img{
-    height:300;
-    width:400;
+    height:300px;
+    width:400px;
 }
 .picture img{
     height: 100px;
@@ -109,17 +109,15 @@ aside form div p{
     margin-left: 110px;
 }
 aside .blanks{
-    margin-left: 321px;
+    margin-left:15%;
     padding:0 20px;
 }
 aside form div .self-description{
     float:left;           
-    text-align:right;
-    width:35%;
-    padding-right:10px;
+    width:11%;
 }
 aside textarea{
-    width:60%;
+    width:80%;
     height:100px;
 }
 aside .Button{
@@ -133,171 +131,176 @@ aside .Button{
 }
 </style>
 </head>
-<body>  
-    <div id="header">
-        <img class="headlogo" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png" alt="哎呀好像加载失败了呢" />
-        <ul class="link">
-            <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接一&nbsp;&nbsp;</a></li>
-            <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接二&nbsp;&nbsp;</a></li>
-            <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接三&nbsp;&nbsp;</a></li>
-            <li><a href="https://github.com/PPPPL/int" title="LPP的Github" style="color: gray">• 导航链接四&nbsp;&nbsp;</a></li>
-        </ul>
+<body> 
+    <div class="left">
+        <div id="header">
+            <img class="headlogo" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png" alt="哎呀好像加载失败了呢" />
+            <ul class="link">
+                <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接一&nbsp;&nbsp;</a></li>
+                <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接二&nbsp;&nbsp;</a></li>
+                <li><a href="https://github.com/PPPPL/int" title="LPP的Github">• 导航链接三&nbsp;&nbsp;</a></li>
+                <li><a href="https://github.com/PPPPL/int" title="LPP的Github" style="color: gray">• 导航链接四&nbsp;&nbsp;</a></li>
+            </ul>
+        </div>
+        <div id="boxes">
+        <div class="box">
+            <h2>文章一级标题</h2>
+            <h4>文章二级标题</h4>
+            <h5>文章作者 文章发表时间</h5>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong >这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+            <img src="https://b-ssl.duitang.com/uploads/item/201112/19/20111219135803_cLfUM.jpg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+        </div>
+        <div class="box">
+            <h2>另一篇文章一级标题</h2>
+            <h4>另一篇文章二级标题</h4>
+            <h5>文章作者 文章发表时间</h5>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+            <img src="https://b-ssl.duitang.com/uploads/item/201208/18/20120818130614_y3Zij.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
+            <ul style="list-style-type:none;">
+                <li>项目列表一</li>
+                <li>项目列表二</li>
+                <li>项目列表三</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>图片</h2>
+            <ul class="picture">
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+                <li>好看的图片
+                <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>最后一篇文章一级标题</h2>
+            <h4>文章二级标题</h4>
+            <h5>文章作者 文章发表时间</h5>
+            <ol style="margin: 10px 40px;">
+                <li>排名一</li>
+                <li>排名二</li>
+                <li>排名三</li>  
+            </ol>
+            <caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格,你们写html时候不需要加</caption>
+            <table>
+                <tr style="text-align: left">
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="" title="操作">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="" title="操作">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="" title="操作">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="" title="操作">操作</a></td>
+                </tr>
+                <tr style="background:#ccc;">
+                    <td>总计</td>
+                    <td>1000</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div id="boxes">
-    <div class="box">
-        <h2>文章一级标题</h2>
-        <h4>文章二级标题</h4>
-        <h5>文章作者 文章发表时间</h5>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong >这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-        <img src="https://b-ssl.duitang.com/uploads/item/201112/19/20111219135803_cLfUM.jpg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-    </div>
-    <div class="box">
-        <h2>另一篇文章一级标题</h2>
-        <h4>另一篇文章二级标题</h4>
-        <h5>文章作者 文章发表时间</h5>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" title="百度前端技术学院">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-        <img src="https://b-ssl.duitang.com/uploads/item/201208/18/20120818130614_y3Zij.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" />
-        <ul style="list-style-type:none;">
-            <li>项目列表一</li>
-            <li>项目列表二</li>
-            <li>项目列表三</li>
-        </ul>
-    </div>
-    <div class="box">
-        <h2>图片</h2>
-        <ul class="picture">
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-            <li>好看的图片
-            <img src="https://b-ssl.duitang.com/uploads/item/201203/31/20120331204754_2t5ds.jpeg" alt="哎呀好像加载失败了呢" title="来自花瓣网" /></li>
-        </ul>
-    </div>
-    <div class="box">
-        <h2>最后一篇文章一级标题</h2>
-        <h4>文章二级标题</h4>
-        <h5>文章作者 文章发表时间</h5>
-        <ol style="margin: 10px 40px;">
-            <li>排名一</li>
-            <li>排名二</li>
-            <li>排名三</li>  
-        </ol>
-        <caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格,你们写html时候不需要加</caption>
-        <table>
-            <tr style="text-align: left">
-                <th>表头</th>
-                <th>表头</th>
-                <th>表头</th>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="" title="操作">操作</a></td>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="" title="操作">操作</a></td>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="" title="操作">操作</a></td>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="" title="操作">操作</a></td>
-            </tr>
-            <tr style="background:#ccc;">
-                <td>总计</td>
-                <td>1000</td>
-                <td></td>
-            </tr>
-        </table>
-    </div>
-    <div class="box">
-        <aside>
-            <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
-            <div class="blanks">
-            <form method="post" action="save.php">
-                <div>
-                    <div>
-                        <label>请输入邮箱地址&nbsp;&nbsp;</label>
-                        <input type="text" name="username" />
-                        <p>邮箱地址请按格式输入</p>
-                    </div>
-                    <div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入密码&nbsp;&nbsp;</label>
-                        <input type="password" name="pass" />
-                    </div>
-                    <div>
-                        <label>请重复输入密码&nbsp;&nbsp;</label>
-                        <input type="password" name="pass" />
-                        <p>密码请为6-16位英文数字</p>
-                    </div>
-                </div>
-            </form>
+    <div class="right">
+        <div class="box">
+            <aside>
+                <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+                <div class="blanks">
+                    <form method="post" action="save.php">
+                        <div>
+                            <div>
+                                <label>请输入邮箱地址&nbsp;&nbsp;</label>
+                                <input type="text" name="username" />
+                                <p>邮箱地址请按格式输入</p>
+                            </div>
+                            <div>
+                                <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入密码&nbsp;&nbsp;</label>
+                                <input type="password" name="pass" />
+                            </div>
+                            <div>
+                                <label>请重复输入密码&nbsp;&nbsp;</label>
+                                <input type="password" name="pass" />
+                                <p>密码请为6-16位英文数字</p>
+                            </div>
+                        </div>
+                    </form>
 
-            <form method="post" action="save.php">
-                <div>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别&nbsp;&nbsp;</label>
-                    <label for="male">男</label>
-                    <input type="radio" value="1" name="gender" id="male" checked="checked" />
-                    <label for="female">女</label>
-                    <input type="radio" value="2" name="gender" id="female" />
-                </div>
-            </form>
+                    <form method="post" action="save.php">
+                        <div>
+                            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别&nbsp;&nbsp;</label>
+                            <label for="male">男</label>
+                            <input type="radio" value="1" name="gender" id="male" checked="checked" />
+                            <label for="female">女</label>
+                            <input type="radio" value="2" name="gender" id="female" />
+                        </div>
+                    </form>
 
-            <form method="post" action="save.php">
-                <div>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市&nbsp;&nbsp;</label>
-                        <select>
-                            <option value="Beijing" selected="selected">北京</option>
-                            <option value="Shanghai">上海</option>
-                            <option value="Guangzhou">广州</option>
-                        </select>
-                    </label>
-                </div>
-            </form>
+                    <form method="post" action="save.php">
+                        <div>
+                            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市&nbsp;&nbsp;</label>
+                                <select>
+                                    <option value="Beijing" selected="selected">北京</option>
+                                    <option value="Shanghai">上海</option>
+                                    <option value="Guangzhou">广州</option>
+                                </select>
+                            </label>
+                        </div>
+                    </form>
 
-            <form method="post" action="save.php">
-                <div>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱好&nbsp;&nbsp;</label>
-                    <label for="sport">运动</label>
-                    <input type="checkbox" value="1" name="favor" id="sport">
-                    <label for="art">艺术</label>
-                    <input type="checkbox" value="2" name="favor" id="art">
-                    <label for="science">科学</label>
-                    <input type="checkbox" value="3" name="favor" id="science">
-                </div>
-            </form>
-            </div>
+                    <form method="post" action="save.php">
+                        <div>
+                            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱好&nbsp;&nbsp;</label>
+                            <label for="sport">运动</label>
+                            <input type="checkbox" value="1" name="favor" id="sport">
+                            <label for="art">艺术</label>
+                            <input type="checkbox" value="2" name="favor" id="art">
+                            <label for="science">科学</label>
+                            <input type="checkbox" value="3" name="favor" id="science">
+                        </div>
+                    </form>
 
-            <form method="post" action="save.php">
-                <div>
-                    <label class="self-description">个人描述</label>    
-                    <textarea cols="20" rows="2">这是一个多行输入框，输入您的个人描述</textarea>                  
+                    <form method="post" action="save.php">
+                        <div>
+                            <label class="self-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述</label>   <textarea cols="20" rows="2">这是一个多行输入框，输入您的个人描述</textarea>                  
+                        </div>
+                    </form>
                 </div>
-                <input type="submit" value="确认提交" name="submit" class="Button" />
-            </form>
-        </aside>   
+                    <form method="post" action="save.php">
+                        <input type="submit" value="确认提交" name="submit" class="Button" />
+                    </form>          
+            </aside>   
+        </div>
     </div>   
     <div id="footer">版权所有ⓒ</div>
 </body>
