@@ -9,6 +9,8 @@
 
   1.可以在网页里调试。<br />
   
+  2.line-height是行高，height就是高，通常height是对于某个框架或者图片来弄的，line-height用于文字。line-height和height组合到一块儿，有一种效果，就是如果把它们的值设置的一样了，文字就会在垂直方向居中，如本实验的footer。 
+  
 </TASK_2>
 
 
