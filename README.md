@@ -11,6 +11,12 @@
   
   2.line-height是行高，height就是高，通常height是对于某个框架或者图片来弄的，line-height用于文字。line-height和height组合到一块儿，有一种效果，就是如果把它们的值设置的一样了，文字就会在垂直方向居中，如本实验的footer。 
   
+  3.没有必要对每一个box进行定位，因为其本来就默认是流动模型，顺着就下来了，又由于是块状元素，其margin本来就是重合的。
+  
+  4.本题中的百度logo和导航都是用padding margin float来进行定位。其中导航不是float li,而是float ul（整体）。
+  
+  5.新学到了box-shadow: 2px 2px 0.5px 1px rgb(160,160,160)(用于盒子);text-decoration: none（用于链接）;list-style-type:none（用于列表）;border-collapse: collapse（用于表格合并线框）;
+  
 </TASK_2>
 
 
