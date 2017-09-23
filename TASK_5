@@ -124,7 +124,7 @@ aside .blanks{
 }
 aside form div .self-description{
     float:left;           
-    width:11%;
+    width:36%;
 }
 aside textarea{
     width:60%;
@@ -301,7 +301,7 @@ aside .Button{
 
                     <form method="post" action="save.php">
                         <div>
-                            <label class="self-description">个人描述</label>   
+                            <label class="self-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述</label>   
                             <textarea cols="20" rows="2">这是一个多行输入框，输入您的个人描述</textarea>                  
                         </div>
                     </form>
