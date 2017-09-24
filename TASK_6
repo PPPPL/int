@@ -1,0 +1,451 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>TASK_6</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			border: 0;
+		}
+		body{
+			margin: 0 auto;
+			padding: 0 44px;
+			width: 980px;
+			height: 1386px;
+		}
+		header{
+			border-bottom: 2px solid #938e8c;
+			position: relative;
+		}
+		header .logo{
+			background: rgb(209,99,99);
+			width: 110px;
+			height: 61px;
+			position: relative;
+		}
+		header .logo p{
+			color: #fff;
+			font: 12px "黑体",sans-serif;
+			position: absolute;
+			margin-left: 4px;
+			bottom: 5px;
+		}
+		header .date{
+			color: #d45d5c;
+			font: 12px "黑体",sans-serif;
+			position: absolute;
+			right: 0;
+			bottom: 5px;
+		}
+		.one{
+			position: relative;
+			margin: 35px auto;
+		}
+		.one .left1{
+			width: 641px;
+			height: 301px;
+			position: relative;
+		}
+		.one .left1 img{
+			width: 641px;
+			height: 301px;
+		}
+		.one .left1 .img1{
+			width: 191px;
+			height: 301px;
+			background: #72A664; opacity: 0.5;
+			position: absolute;
+			top:0px;
+		}
+		.one .left1 .img2{
+			width: 191px;
+			height: 301px;
+			background: #E1ABC3; opacity: 0.5;
+			position: absolute;
+			top:0px;
+			right:0px;
+		}
+		.one .right1{
+			width: 203px;
+			height: 301px;
+			border-top: 2px solid #cc8091;
+			position: absolute;
+			top:0px;
+			right: 0px;
+		}
+		.one .right1 .a,.b{
+			color: #000;
+			font: 24px "Microsoft Yahei",sans-serif;
+			text-decoration: underline;
+			line-height:40px;
+		}
+		.one .right1 .c{
+			color: #676767;
+			font: 12px "楷体",sans-serif;
+			line-height: 10px;
+		}
+		.one .right1 .d{
+			color: #75b86b;
+			font: italic bold 116px "Microsoft Yahei",sans-serif;
+		}
+		.one .right1 .e{
+			position: relative;
+		}
+		.one .right1 .f{
+			color: #cc8091;
+			font: 55px "Microsoft Yahei",sans-serif;
+			position: absolute;
+			top: -5px;
+		}
+		.one .right1 .g{
+			color: #cc8091;
+			font: 21px "Microsoft Yahei",sans-serif;
+			position: absolute;
+			left: 80px;
+			top: 20px;
+		}
+		.one .right1 .h{
+			color: #cc8091;
+			font: 12px "Microsoft Yahei",sans-serif;
+			position: absolute;
+			left: 80px;
+			top:40px;
+		}
+		.two{
+			position: relative;
+		}
+		.two .left2{
+			width: 200px;
+			position: relative;
+			top: 0;
+		}
+		.two .middle{
+			width: 200px;
+			position: absolute;
+			top:0;
+			left: 220px;
+		}
+		.two .right2{
+			width: 200px;
+			position: absolute;
+			top: 0;
+			left: 440px;
+		}
+		.two p{
+			color: #767777;
+			font: 12px "宋体",sans-serif;
+			line-height: 16px;
+		}
+		.two .what{
+			color: #418c59;
+			font: bold 16px "Microsoft Yahei",sans-serif;
+			text-decoration: underline;
+			margin-bottom: 10px;
+		}
+		.two .when{
+			color: #d2994f;
+			font: bold 16px "Microsoft Yahei",sans-serif;
+			text-decoration: underline;
+			margin-bottom: 10px;
+		}
+		.two .how_up{
+			color: #cc7680;
+			font: bold 16px "Microsoft Yahei",sans-serif;
+			text-decoration: underline;
+			margin-bottom: 10px;
+		}
+		.two .how_down{
+			margin-top: 25px; 
+		}
+		.two .how_down p{
+			color: #231815;
+			font:12px "Microsoft Yahei",sans-serif;
+			line-height: 16px;
+			opacity: 0.7;
+		}
+		.two .how_down span{
+			color: #cd4a48;
+			font:italic 12px "Microsoft Yahei",sans-serif;
+		}
+		.three{
+			position: relative;
+			margin: 50px auto;
+			height:625px;
+		}
+		.three .left3{
+			width: 415px;
+			position: absolute;
+			top:0px;
+		}
+		.three .left3_up{
+			border-bottom: 2px solid #11456b;
+		}
+		.three .left3_up .Enlish span{
+			color: #f5e327;
+			font:italic bold 72px "黑体",sans-serif;
+		}
+		.three .left3_up .Enlish{
+			color: #11456b;
+			font:bold 42px/0.4em "黑体",sans-serif;
+			margin-bottom: 16px;
+		}
+		.three .left3_up .Chinese{
+			color: #11456b;
+			font:bold 33px/1.6em "黑体",sans-serif;
+		}
+		.three .left3_down{
+			color: #767777;
+			font: 12px/1.3em "宋体",sans-serif;
+			margin: 20px auto;
+		}
+		.three .left3_down img{
+			float: right;
+			width:150px;
+			height:300px;
+			margin: 10px;
+		}
+		.three .left3_down span{
+			color: #f5e327;
+			font: 70px "Microsoft Yahei",sans-serif;
+			float: left;
+			margin-right:5px;
+		}
+		.three .right3_up{
+			position: absolute;
+			top: 0px;
+			right: 0px;
+		}
+		.three .right3_up .anotherbox1{
+			width: 458px;
+			height: 274px;
+			position: relative;
+		}
+		.three .right3_up .anotherbox1 img{
+			width: 458px;
+			height: 274px;
+		}
+		.three .right3_up .anotherbox1 .wordsbox{
+			width: 458px;
+			height: 61px;
+			background:black;
+			opacity: 0.5;
+			position: absolute;
+			right:0px;
+			bottom: 0px;
+		}
+		.three .right3_up .anotherbox1 .words{
+			height: 44px;
+			position: absolute;
+			left:0px;
+			bottom: 7px;
+			border-left: 3px solid #72b16a;
+			margin-left: 40px;
+		}
+		.three .right3_up .anotherbox1 .words .words1{
+			color: #fff;
+			font: 26px "Microsoft Yahei",sans-serif;
+			margin:0 10px 0 13px;
+		}
+		.three .right3_up .anotherbox1 .words .words2{
+			color: #72b16a;
+			font: italic 12px "Microsoft Yahei",sans-serif;
+			word-spacing: 140%;
+		}
+		.three .right3_down{
+			width: 458px;
+			height: 318px;
+			background:rgb(240,231,217);
+			position: absolute;
+			top:300px;
+			right: 0px;
+			margin: 25px 14px;
+		}
+		.three .right3_down .anotherbox2{
+			width: 458px;
+			height: 318px;
+			position: relative;
+		}
+		.three .right3_down .anotherbox2 .higher{
+			margin:30px 10px 30px 20px;
+		}
+		.three .right3_down .anotherbox2 .higher p{
+			color: #5a5b5b;
+			font:16px "宋体",sans-serif;
+			margin: 20px;
+		}
+		.three .right3_down .anotherbox2 .higher p span{
+			font:italic 12px "宋体",sans-serif;
+		}
+		.three .right3_down .anotherbox2 .lower_left{
+			width: 260px;
+			height: 160px;
+			background:rgb(234,102,102);
+		}
+		.three .right3_down .anotherbox2 .lower_left .x{
+			height: 86px;
+			color: #fff;
+			font: 110px "Microsoft Yahei",sans-serif;
+			position: absolute;
+			left: 0;
+			bottom: 50px;
+			border-right: 2px solid #fff;
+			padding: 0px 5px 40px 10px;
+		}
+		.three .right3_down .anotherbox2 .lower_left .y{
+			color: #fff;
+			font: italic 21px "黑体",sans-serif;
+			margin: 24px;
+			position: absolute;
+			left: 65px;
+			bottom: 80px;
+		}
+		.three .right3_down .anotherbox2 .lower_left .z{
+			color: #fff;
+			font: 12px "黑体",sans-serif;
+			margin: 6px;
+			position: absolute;
+			left: 85px;
+			bottom: 60px;
+		}
+		.three .right3_down .anotherbox2 .lower_right{
+			width: 200px;
+			height: 160px;
+			position: absolute;
+			right: 10px;
+			bottom: 30px;
+
+		}
+		.three .right3_down .anotherbox2 .lower_right{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			color: #d45d5c;
+			font: 72px "黑体",sans-serif;
+			float: left;
+		}
+		.three .right3_up{
+			color: #5a5b5b;
+			font: italic 12px "黑体",sans-serif;
+			margin: 16px;
+		}
+		.three .right3_down .anotherbox2 .lower_right p .quotetext{
+			color: #5a5b5b;
+			font: italic 14px "黑体",sans-serif;
+			width: 150px;
+			height: 160px;
+			position: absolute;
+			right: 10px;
+			bottom: -30px;
+		}
+		.three .right3_down .anotherbox2 .lower_right p .quote1{
+			width: 30px;
+			height: 30px;
+			color: #d45d5c;
+			font: 72px "黑体",sans-serif;
+			position: absolute;
+			right: 170px;
+			bottom: 120px;
+		}
+		.three .right3_down .anotherbox2 .lower_right p .quote2{;
+			width: 30px;
+			height: 30px;
+			color: #d45d5c;
+			font: 72px "黑体",sans-serif;
+			position: absolute;
+			right: 50px;
+			bottom: 25px;
+		}
+		footer{
+			border-top: 1px solid #938e8c;
+
+		}
+		footer p{
+			color: #d45d5c;
+			font: 12px "黑体",sans-serif;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo"><p>ife.baidu.com</p></div>
+		<div class="date">2016.03</div>
+	</header>
+
+	<section class="one">
+		<div class="left1">
+			<img src="http://img.hb.aicdn.com/dccb2ae4a9660989a15f9d5101c6c3bf38f1f9ef101d5-GcIhL9_fw658">
+			<div class="img1"></div>
+			<div class="img2"></div>
+		</div>
+		<div class="right1">
+			<p class="a">About</p>
+			<p class="b">TECHNOLOGE</p>
+			<p class="c">about technologe about technologe about technologe</p>
+			<p class="d">700</p>
+			<div class="e">
+				<p class="f">3.2</p>
+				<p class="g">CSS</p>
+				<p class="h">csscsscsscss</p>
+			</div>
+
+		</div>
+	</section>
+	<section class="two">
+		<div class="left2">
+			<p class="what">What</p>
+			<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+		</div>
+		<div class="middle">
+			<p class="when">When</p>
+			<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+		</div>
+		<div class="right2">
+			<p class="how_up">How</p>
+			<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+			<div class="how_down">
+				<p>what-------<span>30%</span></p>
+				<p>what-------<span>30%</span></p>
+				<p>what-------<span>30%</span></p>
+			</div>
+		</div>
+	</section>
+	<section class="three">
+		<div class="left3">
+			<div class="left3_up">
+				<p class="Enlish"><span>THE</span> TECHNOLOGE OF FRONT</p>
+				<p class="Chinese">前端技术领域</p>
+			</div>
+			<div class="left3_down"><span>前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端<img src="http://img.hb.aicdn.com/c20dfc90564a12658c92a6c872a3cad55d8c489d30b4-M1NihW_fw658">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端。<br/>&nbsp;&nbsp;前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端。<br/>&nbsp;&nbsp;前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</div>
+		</div>
+		<div class="right3">
+			<div class="right3_up">
+				<div class="anotherbox1">
+					<img src="http://img.hb.aicdn.com/fc5d0ada5d17ffddfacf485567a240830d6decf2a99e-q6WEdW_fw658">
+					<div class="wordsbox"></div>
+					<div class="words"><span class="words1">前端技术</span><span class="words2">前端技术前端技术</span></div>
+				</div>
+			</div>
+			<div class="right3_down">
+				<div class="anotherbox2">
+					<div class="higher">
+						<p>▲ 前端前端前端前端前端前端.................<span>前端</span></p>
+						<p>▲ 前端前端前端前端........................<span>前端前</span></p>
+						<p>▲ 前端前端前端前端前端前端前端.............<span>前端</span></p>
+					</div>
+					<div class="lower_left">
+						<p class="x">0</p>
+						<p class="y">ONE TWO <br />THREE FOUR FIVE</p>
+						<p class="z">hello world hello world <br />hello world</p>
+					</div>
+					<div class="lower_right">
+						<p><span class="quote1">“</span><span class="quotetext">&nbsp;&nbsp;&nbsp;&nbsp;hello world hello world hello world hello worldworld hello world hello world hello world hello world</span><span class="quote2">”</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>ife.baidu.com</p>
+	</footer>
+</body>
