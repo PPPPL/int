@@ -214,6 +214,9 @@
 			position: absolute;
 			top: 0px;
 			right: 0px;
+			color: #5a5b5b;
+			font: italic 12px "黑体",sans-serif;
+			margin: 16px;
 		}
 		.three .right3_up .anotherbox1{
 			width: 458px;
@@ -254,7 +257,7 @@
 		.three .right3_down{
 			width: 458px;
 			height: 318px;
-			background:rgb(240,231,217);
+			background:#EEEED6;
 			position: absolute;
 			top:300px;
 			right: 0px;
@@ -322,11 +325,6 @@
 			color: #d45d5c;
 			font: 72px "黑体",sans-serif;
 			float: left;
-		}
-		.three .right3_up{
-			color: #5a5b5b;
-			font: italic 12px "黑体",sans-serif;
-			margin: 16px;
 		}
 		.three .right3_down .anotherbox2 .lower_right p .quotetext{
 			color: #5a5b5b;
