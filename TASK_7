@@ -1,3 +1,84 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 60px;
+}
+header .logo{
+	width: 300px;
+	height: 160px;
+	margin: -50px 0 0 -50px;
+}
+header .nav{
+	float: right;
+	margin-right: 40px;
+}
+header .nav li{
+	display: inline-block;
+	padding: 20px;
+}
+header .nav li:hover{
+	border-bottom:4px solid #e8504f;
+}
+header .nav li a{
+	text-decoration: none;
+	color: gray;
+	font: 15px "Microsoft Yahei",sans-serif;
+}
+header .nav li a:hover{
+	color: #e8504f;	
+}
+.one{
+	position: relative;
+	top: 5px;
+	height: 700px;
+}
+.one img{
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	top: 0px;
+}
+.one .one_up{
+	position: absolute;
+	top: 190px;
+	left: 80px;
+}
+.one .one_up p{
+	font: 20px "Microsoft Yahei",sans-serif;
+	color: black;
+	line-height: 30px;
+}
+.one .one_up p span{
+	font: 65px "Microsoft Yahei",sans-serif;
+	color: black;
+	line-height: 100px;
+}
+.one .one_down{
+	background-color: #e8504f;
+	color: #fff;
+	font: 30px "Microsoft Yahei",sans-serif;
+	text-align: center;
+	width: 330px;
+	height: 60px;
+	position: absolute;
+	top: 420px;
+	left: 80px;
+	line-height: 55px;
+}
+.two .two_down{
+	color: gray;
+	font: 14px "Microsoft Yahei",sans-serif;
+	text-align: center;
+	padding: 0 70px;
+
+}
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
