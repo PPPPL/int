@@ -71,7 +71,7 @@ header .nav li a:hover{
 .two{
 	overflow: auto;
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 }
 .two .two_1{
 	float: left;
@@ -112,11 +112,11 @@ header .nav li a:hover{
 	color: #9F9F9F;
 	font: 50px "Microsoft Yahei",sans-serif;
 	text-align: center;
-	height: 130px;
+	height: 150px;
 }
 .four img{
 	width: 100%;
-	height: 400px;
+	height: 430px;
 } 
 .four{
 	position: relative;
@@ -137,6 +137,7 @@ header .nav li a:hover{
 	margin:5px 650px;
 }
 .four .four_up .four_up_3{
+	margin-top: 30px;
 	font: 13px "Microsoft Yahei",sans-serif;
 }
 .four .four_down{
@@ -185,14 +186,156 @@ header .nav li a:hover{
 	font: 13px "Microsoft Yahei",sans-serif;
 	text-align: center;
 }
+.six{
+	position: relative;
+	overflow: auto;
+}
+.six img{
+	float: left;
+	width: 66%;
+}
+.six .six_left_words{
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	color: #fff;
+	text-align: center;
+}
+.six .six_left_words .words_1{
+	font: 50px "Microsoft Yahei",sans-serif;
+}
+.six .six_left_words .words_2{
+	font: 180px "Microsoft Yahei",sans-serif;
+	line-height: 160px;
+}
+.six .six_left_words .words_3{
+	font: 25px "Microsoft Yahei",sans-serif;
+	line-height: 50px;
+	margin-top: 20px;
+}
 .six .six_right{
 	float: right;
-	width: 35%;
+	width: 34%;
 	margin: 100px 0;
 }
 .six .six_right_up{
-	margin: 20px 30px;
+	padding: 35px 70px;
+}
+.six .six_right_up .words_1{
+	color: black;
+	font: 23px "Microsoft Yahei",sans-serif;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.six .six_right_up span{
+	color: #e8504f;
+	font: 23px "Microsoft Yahei",sans-serif;
+	text-align: center;
+}
+.six .six_right_up .words_2{
+	color: gray;
+	font: 12px "Microsoft Yahei",sans-serif;
+	line-height: 35px;
 }
 .six .six_right_down{
 	margin: 0 30px;
+}
+.six .six_right_down .button{
+	color: #e8504f;
+	font: 13px "Microsoft Yahei",sans-serif;
+	text-align: center;
+	width: 115px;
+	height: 27px;
+	border:1px solid #e8504f;
+	margin: 15px 150px;
+	padding-top: 6px;
+}
+.six .six_right_down a{
+	text-decoration: none;
+}
+.six .six_right_down .more{
+
+}
+.seven{
+	width: 100%;
+}
+.seven a{
+	text-decoration: none;
+}
+.seven .seven_left{
+	float: left;
+	width: 33%;
+	height: 350px;
+	background-color: #E8504F;
+	text-align: center;
+	padding-top: 150px;	
+}
+.seven .seven_right img{
+	float: right;
+	width: 34%;
+	height: 500px;
+}
+.seven .seven_middle{
+	margin: 0 33%;
+	width: 33%;
+	height: 350px;
+	text-align: center;
+	padding-top: 150px;
+}
+.seven .seven_left p{
+	color: #fff;
+	font:20px "Microsoft Yahei",sans-serif;
+}
+.seven .seven_left .line{
+	width: 29px;
+	height: 10px;
+	border-top: 2px solid #fff;
+	margin: 20px 210px;
+}
+.seven .seven_left .button{
+	text-align: center;
+	width: 157px;
+	height: 35px;
+	color: #fff;
+	font: 20px "Microsoft Yahei",sans-serif;
+	border:1px solid #fff;
+	margin: 15px 142px;
+	padding-top: 6px;
+}
+.seven .seven_middle .new{
+	color: black;
+	font:20px "Microsoft Yahei",sans-serif;
+}
+.seven .seven_middle .line{
+	width: 29px;
+	height: 10px;
+	border-top: 2px solid gray;
+	margin: 20px 210px;
+}
+.seven .seven_middle .button{
+	text-align: center;
+	width: 157px;
+	height: 35px;
+	color: #e8504f;
+	font: 20px "Microsoft Yahei",sans-serif;
+	border:1px solid #e8504f;
+	margin: 15px 142px;
+	padding-top: 6px;
+}
+.eight{
+	padding: 100px 300px;
+	text-align: center;
+}
+.eight .words_1{
+	color: black;
+	font: 20px "Microsoft Yahei",sans-serif;
+}
+.eight .line{
+	width: 35px;
+	margin: 10px 355px;
+	border-top: 2px solid #e8504f;
+}
+.eight .words_2{
+	color: gray;
+	font: 13px "Microsoft Yahei",sans-serif;
 }
