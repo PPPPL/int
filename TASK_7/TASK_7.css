@@ -323,7 +323,7 @@ header .nav li a:hover{
 	padding-top: 6px;
 }
 .eight{
-	padding: 100px 300px;
+	padding: 100px 300px 50px 300px;
 	text-align: center;
 }
 .eight .words_1{
@@ -338,4 +338,110 @@ header .nav li a:hover{
 .eight .words_2{
 	color: gray;
 	font: 13px "Microsoft Yahei",sans-serif;
+}
+.nine{
+	margin: 0 150px 100px 150px;
+	height: 400px;
+}
+.nine .nine_left{
+	float: left;
+	width: 300px;
+}
+.nine .nine_left h5{
+	margin:50px 0 25px 0; 
+}
+.nine .nine_left p{
+	color: gray;
+	font: 12px "Microsoft Yahei",sans-serif;
+	line-height: 22px;
+}
+.nine .nine_left span{
+	float: right;
+	color: gray;
+	font: 11px "Microsoft Yahei",sans-serif;
+}
+.nine .nine_right{
+	width: 660px;
+	float: right;
+	position: relative;
+	margin-top: 50px;
+}
+.nine .nine_right input{
+	width: 310px;
+	height: 40px;
+	background-color: #ededee;
+	border:none;
+	margin: 0 10px 15px 0;
+	padding-left: 10px;
+}
+.nine .nine_right input:nth-of-type(1),.nine_right input:nth-of-type(3){
+	float: left;
+}
+.nine .nine_right input:nth-of-type(2),.nine_right input:nth-of-type(4){
+	float: right;
+}
+.nine .nine_right textarea{
+	width: 630px;
+	height: 120px;
+	background-color: #ededee;
+	border:none;
+	margin-bottom: 15px;
+	padding: 5px 10px;
+	font: 13px "Microsoft Yahei",sans-serif;
+}
+.nine .nine_right input:nth-of-type(5){
+	width: 650px;
+}
+.ten{
+	background-color: #33363f;
+	text-align:center;
+	padding: 100px 0 60px 0;
+	color: #fff;
+}
+.ten .words_1{
+	font: 22px "Microsoft Yahei",sans-serif;
+}
+.ten .words_2{
+	font: 12px "Microsoft Yahei",sans-serif;
+	line-height: 20px;
+	margin: 10px 0 25px 0;
+}
+.ten input:nth-of-type(1){
+	width: 500px;
+	height: 40px;
+	border:none;
+	color: gray;
+	font: 13px "Microsoft Yahei",sans-serif;
+	padding-left: 10px;
+}
+.ten input:nth-of-type(2){
+	width: 80px;
+	height: 40px;
+	border:none;
+	background-color: #717179;
+	margin-left: -5px;
+	color: #fff;
+}
+.ten img{
+	width: 30px;
+	height: 30px;
+	margin: 40px 20px;
+}
+footer{
+	height: 60px;
+	background-color: #30303A;
+	color: #fff;
+	font: 12px "Microsoft Yahei",sans-serif;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer .footer_left{
+	float: left;
+	margin: 20px 50px;
+}
+footer .footer_right{
+	float: right;
+	margin: 20px 50px;
 }
