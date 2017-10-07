@@ -1,1 +1,76 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>six</title>
+    <style type="text/css">
+    	*{
+    		margin: 0;
+    		padding: 0px;
+    	}
+        body{
+            padding: 10px;
+        }
+        li{
+            list-style: none;
+            margin: 10px;
+        }
+    	.flex-item-1{
+    		width: 150px;
+    		height: 120px;
+    		border:1px solid #f00;
+    	}
+    	.flex-item-2{
+    		width: 150px;
+    		height: 100px;
+    		border:1px solid #f00;
+    	}
+    	.flex-item-3{
+    		width: 150px;
+    		height: 40px;
+    		border:1px solid #f00;
+    	}
+    	.flex-item-4{
+    		width: 150px;
+    		height: 200px;
+    		border:1px solid #0f0;
+    	}
+        
+    	@media(min-width: 641px){
+            .flex-container{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            }
+    	}
+    	@media(max-width: 640px){
+            .flex-container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            }
+    		.flex-item-4{
+    			order: 1;
+    		}
+            .flex-item-1{
+                order: 2;
+            }
+            .flex-item-2{
+                order: 3;
+            }
+            .flex-item-3{
+                order: 4;
+            }
+    	}
+    </style>
+</head>
+<body>
+	<ul class="flex-container">
+		<li class="flex-item-1"></li>
+		<li class="flex-item-2"></li>
+		<li class="flex-item-3"></li>
+		<li class="flex-item-4"></li>
+	</ul>
+</body>
